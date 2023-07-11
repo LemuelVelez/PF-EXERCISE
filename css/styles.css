@@ -1,4 +1,16 @@
+/* CSS SPECIFICITY: WHICH CODE WILL BE GIVEN IMPORTANCE
+    1. ORDER
+
+*/
 body{
     background-color: yellow;
     font-family: 'Poppins', sans-serif;
+}   
+
+header{
+    background-color: yellowgreen;
+}
+
+h1{
+    background-color: plum;
 }
