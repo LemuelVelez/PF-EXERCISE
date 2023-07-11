@@ -18,7 +18,7 @@ body{
 }   
 
 header{
-    background-color: rgb(165, 219, 57);
+    /* background-color: rgb(165, 219, 57); */
 }
 
 div{
@@ -46,5 +46,17 @@ li{
 /* CUSTOM CLASSNAME SELECTORS */
 
 .header{
+    position: relative;
     height: 100vh;
+    background-image: url('../images/pexels-photo-3748221.jpeg');
+    background-size: cover;
+}
+
+.header__headings{
+    position: absolute;
+    /* background-color: burlywood; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:tomato;
 }
