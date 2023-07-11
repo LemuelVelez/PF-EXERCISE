@@ -1,16 +1,37 @@
 /* CSS SPECIFICITY: WHICH CODE WILL BE GIVEN IMPORTANCE
     1. ORDER
+    2. Embedded vs External Stylesheet (Embedded wins)
 
 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
 body{
     background-color: yellow;
     font-family: 'Poppins', sans-serif;
 }   
 
 header{
-    background-color: yellowgreen;
+    background-color: rgb(165, 219, 57);
 }
 
 h1{
     background-color: plum;
+    color:salmon;
+    display:inline-block;
+    height: 100px;
+    width: 200px;
 }
+
+ul{
+    background-color: goldenrod;
+    display:inline;
+}
+
+li{
+    background-color: bisque;
+}
+
