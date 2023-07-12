@@ -22,7 +22,7 @@ header{
 }
 
 div{
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 h1{
@@ -45,11 +45,27 @@ li{
 
 /* CUSTOM CLASSNAME SELECTORS */
 
+/* *****************HEADER SECTION************************ */
+
 .header{
     position: relative;
     height: 100vh;
-    background-image: url('../images/pexels-photo-3748221.jpeg');
+    background-image: url('../images/pexels-photo-37482211.jpeg');
     background-size: cover;
+}
+
+/* 
+examples:
+space
+child selector
+adjacent sibling
+general sibling 
+
+*/
+
+.header__nav ul li{
+    background-color: firebrick;
+    display: inline-block;
 }
 
 .header__headings{
@@ -60,3 +76,16 @@ li{
     transform: translate(-50%, -50%);
     color:tomato;
 }
+
+/* *****************ABOUT SECTION************************ */
+
+
+/* *****************PORTFOLIO SECTION************************ */
+
+
+/* *****************CONTACT SECTION************************ */
+
+
+
+/* *****************FOOTER SECTION************************ */
+
