@@ -50,7 +50,7 @@ li{
 .header{
     position: relative;
     height: 100vh;
-    background-image: url('../images/pexels-photo-37482211.jpeg');
+    background-image: url('../images/pexels-photo-3748221.jpeg');
     background-size: cover;
 }
 
@@ -63,9 +63,27 @@ general sibling
 
 */
 
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+
+/* .header__nav ul{
+    float: right;
+} */
+
 .header__nav ul li{
-    background-color: firebrick;
+    /* background-color: firebrick; */
     display: inline-block;
+    margin: 10px 20px;
+}
+
+.header__nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .header__headings{
