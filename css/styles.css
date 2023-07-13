@@ -15,7 +15,11 @@
 body{
     /* background-color: yellow; */
     font-family: 'Poppins', sans-serif;
-}   
+}  
+
+a{
+    text-decoration: none;
+}
 
 /* CUSTOM CLASSNAME SELECTORS */
 
@@ -28,7 +32,15 @@ body{
     url('../images/pexels-photo-3748221.jpeg');
     background-size: cover;
 }
+.header__brand{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
 
+.header__brand--span{
+    color: #ED0D0D;
+}
 
 .header__nav{
     display: flex;
@@ -55,7 +67,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:tomato;
+    color: #FFFFFF;
 }
 
 /* *****************ABOUT SECTION************************ */
