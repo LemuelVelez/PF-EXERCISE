@@ -63,7 +63,7 @@ a{
     font-size: 18px;
 }
 
-.header__headings{
+.header__heading{
     position: absolute;
     /* background-color: burlywood; */
     top: 50%;
@@ -79,6 +79,28 @@ a{
 
 .header__heading--h2{
     font-size: 40px;
+}
+
+.about{
+    height: 100vh;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+.about__heading{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.about__heading--h2{
+    font-size: 65px;
+    padding-top: 6rem;
+}
+
+.about__heading--p{
+    font-size: 30px;
+    text-align: center;
 }
 
 /* *****************ABOUT SECTION************************ */
