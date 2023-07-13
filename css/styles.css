@@ -107,7 +107,7 @@ a{
 
 /* *****************PORTFOLIO SECTION************************ */
 .portfolio{
-    height: 100vh;
+    height: 200vh;
     padding: 50px;
     text-align: center;
     color: #362D2D;
@@ -136,10 +136,17 @@ a{
     display: block;
     border-radius: 10px;
 }
-/*
-.portfolio__btn{
 
-} */
+.portfolio__btn{
+    background-color: #ED0D0D;
+    color: #FFFFFF;
+    height: 75px;
+    width: 303px;
+    padding: 2% 5%;
+    border-radius: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
 
 /* *****************CONTACT SECTION************************ */
 
