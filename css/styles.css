@@ -205,9 +205,18 @@ a{
     width: fit-content;
 }
 
+.contact__btn:hover{
+    background-color: teal;
+}
+
 .contact__btn.contact__btn--1{
     display: inline-block;
     color: khaki;
+}
+
+.contact__btn.contact__btn--1:hover{
+    font-size: 20px;
+    color: red;
 }
 
 .contact__row--right{
