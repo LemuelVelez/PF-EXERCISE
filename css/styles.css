@@ -1,6 +1,7 @@
 /* CSS SPECIFICITY: WHICH CODE WILL BE GIVEN IMPORTANCE
     1. ORDER
     2. Embedded vs External Stylesheet (Embedded wins)
+    3. Inline styles will have higher priority over embedded and external links
 
 */
 
@@ -150,7 +151,12 @@ a{
 
 /* *****************CONTACT SECTION************************ */
 
-
+.contact{
+    height: 100vh;
+    color: #FFFFFF;
+    background-color: #3E3C3C;
+    padding: 5%;
+}
 
 /* *****************FOOTER SECTION************************ */
 
