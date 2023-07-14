@@ -158,5 +158,17 @@ a{
     padding: 5%;
 }
 
+.contact__row{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__row--left{
+    background-color: royalblue;
+}
+
+.contact__row--right{
+    background-color: gold;
+}
 /* *****************FOOTER SECTION************************ */
 
