@@ -153,40 +153,40 @@ a{
 
 .contact{
     height: 100vh;
-    color: #FFFFFF;
-    background-color: #3E3C3C;
+    color: #fff;
+    background-color:#3E3C3C;
     padding: 5%;
 }
 
 .contact__row{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+/*  flex-direction: row; */
+  /* flex-wrap: wrap; */
 }
 
 .contact__row--left{
-    /* background-color: grey; */
+    /* background-color: green;   */
+    flex-basis: 45%;
 }
 
 .contact__heading--h2{
     font-size: 60px;
 }
 
-.contact__row--left{
-    flex-basis: 35%;
-}
-
 .contact__row--left p{
-    margin-top: 30px;
+ margin-top: 30px;
 }
 
 .contact__left--icons{
     margin-top: 15px;
 }
+
 .contact__row--left p i{
-    color: lightcyan;
+    color: #20E700;
+    margin-right: 10px;
 }
 
-.contact__left--icons{
+.contact__left--icons a{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -197,30 +197,84 @@ a{
 .contact__btn{
     display: block;
     margin: 50px auto;
-    border: 1px solid teal;
+    border: 1px solid #2ecc71;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
     width: fit-content;
 }
 
 .contact__btn:hover{
-    background-color: teal;
+    background-color: #2ecc71;
 }
 
 .contact__btn.contact__btn--1{
-    display: inline-block;
-    color: khaki;
-}
-
-.contact__btn.contact__btn--1:hover{
-    font-size: 20px;
-    color: red;
+    display:inline-block;
 }
 
 .contact__row--right{
-    background-color: gold;
+    /* background-color: blue; */
+    flex-basis: 60%;
 }
-/* *****************FOOTER SECTION************************ */
 
+.contact__row--right form{
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+   outline:none;
+    background: #312D2D;
+    border: 6px;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+form input:hover, form textarea:hover {
+    outline-style: solid;
+    outline-color: red;
+}
+
+.contact__btn.contact__btn--2{
+    display: inline-block;
+    background-color: #312D2D;
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact__btn--2:hover{
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+
+
+
+/****************************************************FOOTER SECTION****************************/
+
+footer{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: #171515;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+
+
+/****************************************************MEDIA QUERIES****************************/
+
+/***********MEDIA QUERY HEADER SECTION*****/
+
+/***********MEDIA QUERY ABOUT SECTION*****/
+
+/***********MEDIA QUERY PORTFOLIO SECTION*****/
+
+/***********MEDIA QUERY CONTACT SECTION*****/
+
+/***********MEDIA QUERY FOOTER SECTION*****/
