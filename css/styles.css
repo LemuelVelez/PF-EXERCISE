@@ -182,7 +182,7 @@ a{
 }
 
 .contact__row--left p i{
-    color: #20E700;
+    color: #ED0D0D;
     margin-right: 10px;
 }
 
@@ -197,7 +197,7 @@ a{
 .contact__btn{
     display: block;
     margin: 50px auto;
-    border: 1px solid #2ecc71;
+    border: 1px solid #ED0D0D;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -206,7 +206,7 @@ a{
 }
 
 .contact__btn:hover{
-    background-color: #2ecc71;
+    background-color: #ED0D0D;
 }
 
 .contact__btn.contact__btn--1{
@@ -246,7 +246,7 @@ form input:hover, form textarea:hover {
 }
 
 .contact__btn--2:hover{
-    background-color: #2ecc71;
+    background-color: #ED0D0D;
     cursor: pointer;
 }
 
