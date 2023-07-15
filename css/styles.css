@@ -233,8 +233,7 @@ a {
 }
 
 .contact__row--left p i {
-    color: #ED0D0D;
-    margin-right: 10px;
+    color: #ED0D0D margin-right: 10px;
 }
 
 .contact__left--icons a {
@@ -304,7 +303,6 @@ form textarea:hover {
 }
 
 
-
 /****************************************************FOOTER SECTION****************************/
 
 footer {
@@ -317,7 +315,6 @@ footer {
     color: #fff;
 
 }
-
 
 
 /****************************************************MEDIA QUERIES****************************/
@@ -472,5 +469,35 @@ footer {
 }
 
 /***********MEDIA QUERY CONTACT SECTION*****/
+@media only screen and (max-width: 600px) {
+
+    .contact {
+        height: 180vh;
+    }
+
+    .contact__row {
+        flex-direction: column;
+    }
+
+    .contact__heading--h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+
+    .contact__btn.contact__btn--2 {
+        margin: 10% 0;
+    }
+
+
+}
 
 /***********MEDIA QUERY FOOTER SECTION*****/
+
+@media only screen and (max-width: 600px) {
+    footer p {
+
+        padding: 5% 0 0;
+
+    }
+}
