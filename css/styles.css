@@ -93,11 +93,15 @@ a {
 }
 
 
-/* *****************ABOUT SECTION************************ */
+/****************************************************ABOUT SECTION****************************/
 .about {
-    height: 100vh;
+    height: 80vh;
     background-color: #1E1E1E;
-    color: #FFFFFF;
+    color: #fff;
+}
+
+.about__img{
+    display: none;
 }
 
 .about__heading {
@@ -107,13 +111,46 @@ a {
 }
 
 .about__heading--h2 {
-    font-size: 65px;
+    font-size: 60px;
     padding-top: 6rem;
 }
 
-.about__heading--p {
-    font-size: 30px;
+.about__heading--paragraph{
     text-align: center;
+}
+
+.about__skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+    margin: auto;
+}
+
+.about__skills-h3 {
+    padding-right: 5%;
+}
+
+.about__skills-h3--1{
+    border-bottom: 3px solid #20E700;
+    width:5%;
+    margin-right: 50px;
+}
+
+.about__content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 4%;
+    /* background-color: green; */
+    width: 50%;
+    padding-left: 2%;
+   text-align: left;
+}
+
+.about__content-h3{
+    color: #20E700;
+    font-weight: 700;
 }
 
 /* *****************PORTFOLIO SECTION************************ */
@@ -353,6 +390,54 @@ footer {
 } */
 
 /***********MEDIA QUERY ABOUT SECTION*****/
+@media only screen and (max-width: 600px) {
+    .about{
+        height: 150vh;
+        padding-top: 10%;
+        
+    }
+
+    .about__img{
+        display: block;
+        text-align: center;
+        padding: 10% 3% 0% 0;
+    }
+
+    .about__img img{
+        height: 180px;
+        width: 190px;
+        border-radius: 10px;
+    }
+
+    .about__img img:hover{
+        transform: translate(-5px, -10px);
+        cursor: pointer;
+        box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
+    }
+
+    .about__heading--h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .about__heading{
+        width: 80%;
+    }
+
+    .about__heading--paragraph{
+        text-align: center;
+    }
+
+    .about__content{
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 10%;
+        width: 87%;
+    
+
+    }
+    
+}
 
 /***********MEDIA QUERY PORTFOLIO SECTION*****/
 
