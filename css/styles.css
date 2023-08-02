@@ -446,6 +446,7 @@ footer {
 @media only screen and (max-width: 600px) {
     .portfolio{
         height: 200vh;
+        margin-bottom: 1700px;
     }
 
     .portfolio__heading--h2{
